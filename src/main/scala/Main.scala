@@ -9,7 +9,7 @@ object Main {
 
     val keys = mutable.ListBuffer[Int](1, 2, 3)
 
-    for (k <- keys if k > 1)
+    for (k <- keys)
       keys -= k
   }
 
